@@ -1,0 +1,108 @@
+#container{
+    max-width: 100%;
+    background-image: url(bg.svg), url(Rectangle6.png);
+     background-repeat: no-repeat;
+    background-position:top left,20% ;
+    background-size: 40% 100% ,contain; 
+    font-family: Open Sans;
+}
+nav{
+    font-size: 120%;
+}
+#nacosnoun{
+ 
+    font-style: normal;
+    font-weight: bold;
+    /* line-height: 41px; */
+    color: #048C0B;
+}
+ul{
+    display: inline;
+}
+#nav-bar{
+    margin-right:20%;
+        
+    
+}
+
+#spacing{
+    padding-right: 5%;
+    font-style: normal;
+    font-weight: bold;
+    color: #048C0B;
+}
+
+#socials{
+    position: relative;
+    float: right;
+    
+    }
+    
+li{
+display: inline;
+list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+#head{
+    width:40%;
+    margin-top: 5%;
+}
+header{
+  
+    font-style: normal;
+    font-weight: 800;
+
+ 
+text-shadow: 10px 10px 5px rgba(255, 255, 255, 0.25);
+}
+
+#tab{
+    margin-top:8% ;
+}
+#login-tab{
+    display: inline;
+
+    background: #FFFFFF;
+    border: 3px solid #048C0B;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25), inset 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding:4%;
+}
+#login-text{
+    color: #048C0B;
+    font-size: 120%;
+    font-weight: bolder;
+    
+}
+
+
+
+#register-tab{
+    display: inline;
+    background: #048C0B;
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25), inset 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding:4%;
+    margin-left:4% ;
+
+}
+
+#register-text {
+    color:#ffffff;
+    font-size: 120%;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    margin-top: 5%;
+  
+
+ 
+
+}
+

@@ -1,0 +1,96 @@
+
+.container{
+    background-image: url(bg.svg), url(Rectangle6.png);
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-position:top left,top ;
+    background-size: 68% 100% ,contain; 
+    
+}
+.logo{
+    margin-top: 0.7rem;
+}
+.nacosnoun{
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+    color: #048C0B;
+    
+ }
+
+ .list-items{font-family: Open Sans;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    text-decoration: none;
+    color: #048C0B;
+    display: inline;
+  padding: 0.7rem 1rem 1rem 1rem;
+}
+
+.socials{
+    margin: rem;
+}
+
+.heading{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 68px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+
+border: 5px  #048C0B;
+text-shadow: 10px 10px 5px rgba(255, 255, 255, 0.25);
+}
+
+/* .login{
+    display: inline;
+    background: #FFFFFF;
+    border: 3px solid #048C0B;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25), inset 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.login-text{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+color: #048C0B;
+} */
+
+footer{
+font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #048C0B;
+}
