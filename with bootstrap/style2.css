@@ -1,10 +1,14 @@
 
-.container{
+.background{
     background-image: url(bg.svg), url(Rectangle6.png);
     font-size: 30px;
     background-repeat: no-repeat;
     background-position:top left,top ;
     background-size: 68% 100% ,contain; 
+}
+.container{
+   
+    max-width:1024px;
     
 }
 .logo{

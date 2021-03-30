@@ -2,17 +2,19 @@
     max-width: 100%;
     background-image: url(bg.svg), url(Rectangle6.png);
      background-repeat: no-repeat;
-    background-position:top left,20% ;
-    background-size: 40% 100% ,contain; 
+    background-position:left,50% ;
+    background-size: 60%,contain; 
     font-family: Open Sans;
 }
 nav{
+   
     font-size: 120%;
+    font-weight: 700;
 }
 #nacosnoun{
  
     font-style: normal;
-    font-weight: bold;
+   
     /* line-height: 41px; */
     color: #048C0B;
 }
@@ -29,13 +31,13 @@ ul{
     padding-right: 5%;
     font-style: normal;
     font-weight: bold;
-    color: #048C0B;
+    
 }
 
 #socials{
     position: relative;
     float: right;
-    
+  
     }
     
 li{
@@ -46,22 +48,23 @@ list-style: none;
 
 a{
     text-decoration: none;
+    color: #048C0B
 }
 #head{
-    width:40%;
+    width:50%;
     margin-top: 5%;
 }
 header{
-  
-    font-style: normal;
     font-weight: 800;
-
+    color: white;
+    font-size: 1.5em;
  
-text-shadow: 10px 10px 5px rgba(255, 255, 255, 0.25);
+text-shadow:  0.15em  0.15em 0px #048C0B, 0.15em  0.15em 0px #048C0B;
 }
 
 #tab{
     margin-top:8% ;
+    font-weight: 800;
 }
 #login-tab{
     display: inline;
@@ -76,7 +79,7 @@ text-shadow: 10px 10px 5px rgba(255, 255, 255, 0.25);
 #login-text{
     color: #048C0B;
     font-size: 120%;
-    font-weight: bolder;
+    font-weight: bold;
     
 }
 
@@ -95,12 +98,13 @@ text-shadow: 10px 10px 5px rgba(255, 255, 255, 0.25);
 #register-text {
     color:#ffffff;
     font-size: 120%;
-    font-weight: bolder;
+    font-weight: bold;
 }
 footer{
     text-align: center;
     margin-top: 5%;
-  
+    font-weight: 400;
+  color:#048C0B;
 
  
 
