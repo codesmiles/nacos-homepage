@@ -15,13 +15,15 @@ nav{
     font-size: 120%;
     font-weight: 700;
    margin-bottom: 5%;
-   margin-top: 2%;
 }
 #nacosnoun{
     display: inline;
 }
 ul{
     display: inline;
+}
+#nav-bar{
+    display: inline-block;
 }
 a{
     color: #048C0B;
@@ -44,7 +46,9 @@ border-radius: 6.25em;
 }
 
 #social-handle{
-margin-left: 35%;
+position: relative;
+float: right;
+width: fit-content;
 }
 
 #content{
@@ -79,4 +83,41 @@ footer{
     margin-top: 18%;
     margin-left: 40%;
     color: #048C0B;
+}
+
+
+
+
+@media screen and (max-width:790px){
+    #content{
+        grid-template-columns:auto auto auto;
+    }
+    #nacosnoun{
+        display: block;
+    
+    }
+    
+}
+
+
+@media screen and (max-width:760px){
+    #content{display: grid;
+       grid-template-columns: auto auto;
+       row-gap: 3%;
+       justify-content: space-evenly
+   }
+   
+   .escos{
+   padding:0.2em;
+   }
+
+
+@media screen and (max-width:620px){
+    #content{
+        grid-template-columns: auto;
+
+    }
+    #social-handle{
+        float: left;
+    }
 }
