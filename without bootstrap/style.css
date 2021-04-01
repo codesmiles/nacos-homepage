@@ -110,3 +110,23 @@ footer{
 
 }
 
+@media screen and (max-width:395px){
+    /* nav{
+        font-size: 1em;
+    }
+    */
+    header{
+        font-size: 1em;
+    }
+   
+    
+    #login-tab, #register-tab{
+        display: block;
+        margin: 5%;
+        text-align: center;
+    }
+    /* {
+        display: block;
+    } */
+
+}
